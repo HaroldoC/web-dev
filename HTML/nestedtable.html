@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./html-icon.png" type="image/png" />
+    <!--Nested Table-->
+    <title>Nested Table</title>
+  </head>
+  <body>
+    <!--Employees Info-->
+    <h1>Nesting HTML Table</h1>
+    <hr />
+    <br />
+    <table style="width: 100%; border: 2px solid #08c8d6; margin: 20px">
+      <caption style="text-align: left; font-weight: bolder; margin: 10px">
+        Employees Info
+      </caption>
+      <!--Table Head-->
+      <tr>
+        <th
+          style="padding: 10px; border: 2px solid #68696b; text-align: center"
+        >
+          Name
+        </th>
+        <th
+          style="padding: 10px; border: 2px solid #68696b; text-align: center"
+        >
+          Age
+        </th>
+        <th
+          style="padding: 10px; border: 2px solid #68696b; text-align: center"
+        >
+          Gender
+        </th>
+        <th
+          style="padding: 10px; border: 2px solid #68696b; text-align: center"
+        >
+          Department
+        </th>
+      </tr>
+      <!--Table Data 1-->
+      <tr>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          Haroldo Carvalho
+        </td>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          43
+        </td>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          Male
+        </td>
+        <td>
+          <!--Nesting Head-->
+          <table style="width: 100%; margin: 0; border: none">
+            <tr>
+              <th
+                style="
+                  background-color: #68696b;
+                  padding: 5px;
+                  color: white;
+                  text-align: center;
+                "
+              >
+                Deparment Name
+              </th>
+              <td
+                style="
+                  background-color: #68696b;
+                  padding: 5px;
+                  color: white;
+                  text-align: center;
+                "
+              >
+                Manager
+              </td>
+              <td
+                style="
+                  background-color: #68696b;
+                  padding: 5px;
+                  color: white;
+                  text-align: center;
+                "
+              >
+                Sales
+              </td>
+            </tr>
+            <!--Nesting data-->
+            <tr>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Sales department
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Felipe
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                $200.000
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                IT department
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Haroldo
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                $4.200.000
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!--Table Data 2-->
+      <tr>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          Pamela
+        </td>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          36
+        </td>
+        <td style="padding: 10px; border: 2px solid #ccc; text-align: center">
+          Female
+        </td>
+        <td>
+          <!--Nesting Head-->
+          <table style="width: 100%; margin: 0; border: none">
+            <tr>
+              <th
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Deparment Name
+              </th>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Manager
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Sales
+              </td>
+            </tr>
+            <!--Nesting data-->
+            <tr>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Finance
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Andy
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                $27.200.000
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Security
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                Lucas
+              </td>
+              <td
+                style="padding: 10px; border: 2px solid #ccc; text-align: left"
+              >
+                $2.000.000
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
