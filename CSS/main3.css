@@ -1,0 +1,17 @@
+/* ID Selector*/
+
+#title {
+  color: red;
+}
+
+#desc {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#desc1 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}

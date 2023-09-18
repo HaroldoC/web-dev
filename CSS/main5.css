@@ -1,0 +1,31 @@
+input:required {
+  background-color: rgb(252, 246, 246);
+  color: rgb(15, 14, 14);
+}
+
+input:disabled {
+  background-color: rgb(234, 105, 6);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(234, 105, 6);
+  color: white;
+  cursor: pointer;
+  width: 500px;
+}
+
+button:active {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+a:any-link {
+  color: rgb(234, 105, 6);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(10, 6, 238);
+  text-decoration: none;
+}
